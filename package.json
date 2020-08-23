@@ -1,0 +1,22 @@
+{
+  "name": "fastexponent",
+  "version": "1.0.1",
+  "description": "Calculates a^b in log(b) time complexity",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kc596/node-fast-expo.git"
+  },
+  "keywords": [
+    "fastexponent"
+  ],
+  "author": "kunal05",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kc596/node-fast-expo/issues"
+  },
+  "homepage": "https://github.com/kc596/node-fast-expo#readme"
+}
