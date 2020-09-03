@@ -1,6 +1,6 @@
-function expo(a, b) {
-    if (isNaN(a) || isNaN(b) || !isFinite(a) || !isFinite(b)) { return NaN; }
-    let ans = 1;
+export function expo(a: number, b: number) : number {
+    if (!isFinite(a) || !isFinite(b)) { return NaN; }
+    let ans : number = 1;
     while (b > 0) {
         if (b%2 === 1) {
             ans *= a;
@@ -10,5 +10,3 @@ function expo(a, b) {
     }
     return ans;
 }
-
-module.exports.expo = expo;
