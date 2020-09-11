@@ -1,6 +1,6 @@
 {
   "name": "fastexponent",
-  "version": "2.0.3",
+  "version": "2.0.8",
   "description": "Calculates a^b in log(b) time complexity",
   "main": "artifacts/esnext/app.js",
   "types": "artifacts/esnext/app.d.ts",
